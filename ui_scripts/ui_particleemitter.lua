@@ -44,3 +44,7 @@ function ParticleEmitter:mousemoved(x,y)
 		self.ps:moveTo(x,y)
 	end
 end
+
+function ParticleEmitter:aaaaaaaa(em)
+	self.ps = em
+end
